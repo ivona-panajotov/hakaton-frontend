@@ -1,0 +1,194 @@
+@media only screen and (min-width: 300px) and (max-width:449px) {
+    .bubble{display: none;}
+  .image{
+      width:10rem;
+      height:10rem;
+  }
+  #content{
+      height:240vh
+  }
+  .line{
+      width:15rem
+  }
+  .navbar-nav>a{
+      font-size: 1.5rem;
+      margin-left: -13rem;
+  }
+  .btn1{
+      margin-top: -7rem;
+  }
+  .btn1,.btn2{
+      height: 3rem;
+      padding: 0;
+      width: 10rem;
+      margin-left: -6rem;
+  }
+  #logo{
+      margin-left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width:600px) {
+
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+    .line{width:30rem; margin: 0;}
+    .line>p:nth-child(1),.line>p:nth-child(3){
+      margin-left: 2rem;
+      word-break: break-all;
+  }
+  #middle{margin-left: 2rem;}
+  .fas{
+      font-size: 2rem;
+      margin-left: -35rem;
+  }
+  .navbar-nav>a{
+      font-size: 1.5rem;
+      margin-left: -13rem;
+  }
+  .btn1{
+      margin-top: -7rem;
+  }
+  .btn1,.btn2{
+      height: 3rem;
+      padding: 0;
+      width: 10rem;
+      margin-left: -5rem;
+  }
+  #logo{
+      margin-left: 10rem;
+  }
+  #content{
+      height:155vh
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .fas{
+      font-size: 2.5rem;
+      margin-left: -27rem;
+  }
+  .btn1{
+      margin-top: -7rem;
+  }
+  .btn1,.btn2{
+      height: 3rem;
+      padding: 0;
+      width: 10rem;
+      margin-left: 10rem;
+  }
+  .navbar-nav>a{
+      font-size: 1.5rem;
+      margin-top: -1rem;
+  }
+  #logo{
+      margin: 2rem -13rem;
+  }
+  .line{
+      width:40rem
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+      .fas{
+          font-size: 2.5rem;
+          margin-left: -10rem !important;
+      }
+      .navbar{
+          margin-left: -10rem;
+      }
+      #logo{
+          margin-left: 30rem;
+      }
+      .btn1{
+          margin-top: -7rem;
+      }
+      .btn1,.btn2{
+          height: 3rem;
+          padding: 0;
+          width: 10rem;
+          margin-left: 10rem;
+      }
+      .navbar-nav>a{
+          font-size: 1.5rem;
+          margin-top: -1rem;
+      }
+      .fas{
+          margin-left: 1rem;
+      }
+      .line{
+          width: 50rem;
+      }
+      .line>p:nth-child(1),.line>p:nth-child(3){
+          margin-left: 1rem;
+          word-break: break-all;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body,html{width: 100vw;}
+  .navbar-nav>a{
+
+      font-size: 1.4rem;
+  }
+ 
+  .navbar{
+      padding: 0;
+  }
+  #open-text{
+      margin: 13rem 45rem;
+      font-weight: 900;
+      font-size: 5rem;
+      height: 6rem;
+      }
+      #logo{
+          margin-left: 60rem;
+      }.btn1,.btn2{
+          height:3rem
+      }
+      .line{
+          width: 70rem;
+      }
+      .line>p:nth-child(1),.line>p:nth-child(3){
+          margin-left: 1rem;
+          word-break: break-all;
+      }
+  }
+  @media only screen and (min-width: 1200px) and (max-width:1290px){
+      .navbar-nav>a{
+          margin-top: 1rem;
+          font-size: 1.5rem;
+      }
+      .btn1,.btn2{margin-top: 2rem;}
+  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+
+      .navbar{
+          padding-left: 20rem;
+      background-color: #FEEADF;
+          z-index: 10;
+      }
+      .navbar-nav{
+          font-family: 'Patrick Hand';
+          font-weight: 700;
+      }
+      .navbar-nav>a{
+          letter-spacing: 1px;
+          font-size: 2rem;
+          color: rgb(56, 56, 56);
+          margin-left: 2rem;
+      }
+      #logo{
+          margin: -0.2rem -20rem;
+      }
+      .btn1,.btn2{
+          height:3rem
+      }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Piletina",
+        "sastojci":["Piletina","jaja"],
+        "teskoca":3,
+        "id":1
+    },
+    {
+        "name":"Musaka",
+        "sastojci":["Meso","jaja"],
+        "teskoca":1,
+        "id":2
+    },
+    {
+        "name":"Sarma",
+        "sastojci":["Kupus","meso"],
+        "teskoca":2,
+        "id":3
+    }
+]

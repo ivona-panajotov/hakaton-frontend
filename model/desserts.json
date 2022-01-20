@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Banana split",
+        "sastojci":["banana","sladoled"],
+        "teskoca":3,
+        "id":1
+    },
+    {
+        "name":"torta",
+        "sastojci":["cokolada","mleko"],
+        "teskoca":1,
+        "id":2
+    },
+    {
+        "name":"kolac",
+        "sastojci":["mleko","jaja"],
+        "teskoca":2,
+        "id":3
+    }
+]

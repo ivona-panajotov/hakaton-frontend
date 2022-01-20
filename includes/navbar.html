@@ -1,0 +1,119 @@
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.navbar{
+  padding-top: 15px;
+  padding-left: 20rem;
+background-color: #FEEADF;
+  z-index: 10;
+}
+.navbar-nav{
+  /* font-family: 'Indie flower'; */
+  font-weight: 700;
+}
+.nav-btn:hover{color: white !important;}
+.navbar-nav>a{
+  letter-spacing: 1px;
+  color: rgb(34, 22, 22) !important; 
+  margin-left: 2rem;
+  font-family: 'Cabin';
+  font-size: 2.5rem !important;
+}
+.navbar-nav>a:hover{color:rgb(77, 5, 5) !important}
+#logo{
+  width:6rem;
+  position: absolute;
+  margin-left: -17rem;
+  margin-top: -5px;
+}
+#big_logo{
+  width: 15rem;
+  z-index: 20;
+  position: absolute;
+}
+.btn1 {
+    margin:1rem 5rem;
+    height: 3rem;
+  font-size: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 5px 10px 0 rgba(205, 209, 215, 0.8);
+  background: linear-gradient(to right, #90B4AB, #51756E);
+color: rgb(255, 255, 255);
+animation: gradient 3.5s ease infinite;
+background-size: 300% 300%;
+}
+.btn>.nav-link{
+  color:white;
+  font-family: 'Patrick Hand';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: -0.7rem;
+}
+.btn2{
+  margin: 1rem 0;
+  background: linear-gradient(to right, #ffad69, #d45858);
+  animation: gradient 3.5s ease infinite;
+  background-size: 300% 300%;
+
+}
+@keyframes gradient { 
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+</style>
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="#" class="nav-brand"><img src="./src/cat.png" id="logo" alt=""></a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" href="recipes">All recipes</a>
+          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="#">Contact</a>
+          <button class="btn btn1">
+          <a class="nav-link nav-btn" href="#">Log In</a>
+          </button>
+          <button class="btn btn2">
+          <a class="nav-link nav-btn" href="#">Register</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js"
+></script>
